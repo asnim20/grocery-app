@@ -9,11 +9,9 @@ import android.content.Intent;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class AdminCategoryActivity extends AppCompatActivity {
-    private ImageView tShirts, sportsTShirts, femaleDresses, sweathers;
-    private ImageView glasses, hatsCaps, walletsBagsPurses, shoes;
-    private ImageView headPhonesHandFree, Laptops, watches, mobilePhones;
-    private Button LogoutBtn, CheckOrdersBtn;
-
+    private ImageView milk,cheese,chicken,fruits,fish,bread,veg,med;
+    private ImageView sauce,pasta,cereal,eggs;
+   
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
